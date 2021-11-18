@@ -1,0 +1,232 @@
+<resources>
+    <string name="app_name">GamMath</string>
+    <string name="title_activity_settings">Pengaturan</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Aktifkan rekomendasi sosial</string>
+    <string name="pref_description_social_recommendations">Rekomendasi bagi orang untuk dihubungi
+        berdasarkan riwayat pesan Anda
+    </string>
+
+    <string name="pref_title_display_name">Nama tampilan</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Tambahkan teman ke pesan</string>
+    <string-array name="pref_example_list_titles">
+        <item>Selalu</item>
+        <item>Bila memungkinkan</item>
+        <item>Tidak pernah</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sinkronisasi</string>
+
+    <string name="pref_title_sync_frequency">Sinkronkan frekuensi</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 Menit</item>
+        <item>30 Menit</item>
+        <item>1 Jam</item>
+        <item>3 Jam</item>
+        <item>6 Jam</item>
+        <item>Tidak Pernah</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Pintu masuk 1</item>
+        <item>Pintu masuk 2</item>
+        <item>Pintu masuk 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">Pengaturan sinkronisasi sistem</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifikasi</string>
+
+    <string name="pref_title_new_message_notifications">Notifikasi pesan baru</string>
+
+    <string name="pref_title_ringtone">Nada Dering</string>
+    <string name="pref_ringtone_silent">Diam</string>
+
+    <string name="pref_title_vibrate">Getar</string>
+
+    <!-- Score Pop up String -->
+    <string name="score_pop_score">Anda mendapatkan %1$d langsung dari %2$d</string>
+    <string name="shark_points">asd</string>
+    <string name="below_average_math_skill">Hasil Anda menunjukkan keterampilan matematika di bawah rata-rata. Terus berlatih!</string>
+    <string name="average_math_skill">Hasil Anda menunjukkan kemampuan matematika rata-rata.</string>
+    <string name="above_average_math_skill">Hasil Anda menunjukkan keterampilan matematika di atas rata-rata.</string>
+    <string name="exceptional_math_skill">Hasil Anda menunjukkan keterampilan matematika yang luar biasa.</string>
+    <string name="number_too_low">Jawab lebih dari 20 pertanyaan untuk mengkalibrasi tingkat keterampilan. Coba lagi.</string>
+    <string name="number_too_low_30">Jawab lebih dari 30 pertanyaan untuk mengkalibrasi tingkat keterampilan. Coba lagi.</string>
+    <string name="number_too_low_10">Jawab lebih dari 10 pertanyaan untuk mengkalibrasi tingkat keterampilan. Coba lagi.</string>
+    <string name="score_too_low">Skor terlalu rendah. Coba lagi untuk mengkalibrasi tingkat keterampilan.</string>
+    <string name="afk_text">Apakah Kamu Disana?</string>
+
+    <!--User feedback strings for Time Trials-->
+    <string name="default_time_trials">AYO!</string>
+    <string name="good_job">KERJA YANG BAIK!</string>
+    <string name="amazing">LUAR BIASA!</string>
+    <string name="fantastic">FANTASTIS!</string>
+    <string name="damn">SIAL!</string>
+    <string name="genius">GENIUS!</string>
+    <string name="sweet">MANIS!</string>
+    <string name="crazy">WOW!</string>
+    <string name="keep">NICE!</string>
+    <string name="unbelievable">PINTAR!</string>
+    <string name="brilliant">BRILLIANT!</string>
+    <string name="surprised">O_O</string>
+    <string name="bananas">BANANAS!</string>
+    <string name="on_a_roll">YOU\'RE ON A ROLL!</string>
+    <string name="ohno">Oh TIDAK!</string>
+    <string name="next">LANJUT!</string>
+    <string name="sad">:(</string>
+
+    <!--score-->
+    <string name="score">SKOR: %1$d</string>
+    <string name="title_activity_time_trials_loading_screen">TimeTrialsMemuatLayar</string>
+
+    <!--Quick Maths Loading Screen-->
+    <string name="color">Petunjuk: Perhatikan warna latar belakang. Ini menunjukkan berapa banyak waktu yang tersisa.</string>
+    <string name="panic">Saran: Jangan panik saat melihat perubahan warna. Anda masih memiliki waktu sekitar 15 detik lagi.</string>
+    <string name="wrongs">Terlalu banyak kesalahan? Apa yang menghentikan Anda untuk memulai dari awal? Matematika cepat selalu hanya berdurasi 30 detik.</string>
+    <!--Time trials loading screen -->
+    <string name="time_resets">Petunjuk: Waktu diatur ulang setiap kali Anda menjawab dengan benar</string>
+    <string name="difficulty">Petunjuk: Kesulitan bervariasi dari pertanyaan ke pertanyaan</string>
+    <string name="improve">Petunjuk: Kurangi waktu Anda untuk menyelesaikan dengan hanya menghitung angka terakhir</string>
+    <string name="friends">Ide: Bandingkan hasil dengan teman Anda. Lihat di mana Anda berdiri!</string>
+
+    <!--advanced loading screen-->
+    <string name="notime">Petunjuk: Waktu bukanlah musuh Anda di Advanced Shark</string>
+    <!--loading screen-->
+    <string name="loading_screen_timer">%1$d</string>
+
+    <!--timer-->
+    <string name="time_left_five">10s</string>
+    <string name="time_left">%1$ds</string>
+    <string name="time_left_ten_less">0%1$ds</string>
+    <string name="ten">SEPULUH</string>
+    <string name="nine">SEMBILAN</string>
+    <string name="eight">DELAPAN</string>
+    <string name="seven">TUJUH</string>
+    <string name="six">ENAM</string>
+    <string name="five">LIMA</string>
+    <string name="four">EMPAT</string>
+    <string name="three">TIGA</string>
+    <string name="two">DUA</string>
+    <string name="one">SATU</string>
+    <string name="zero">NOL</string>
+
+    <!--quickmath timer-->
+    <string name="timer_quick_math">Waktu Tersisa: %1$ds</string>
+    <string name="timer_quick_math_ten_less">Waktu Tersisa: 0%1$ds</string>
+    <string name="timer_disabled">Waktu Dinonaktifkan</string>
+    <string name="taponq">DISABLED</string>
+    <!--advanced-->
+    <string name="square">%1$d\u00B2</string>
+    <string name="cube">%1$d\u00B3</string>
+    <string name="box">%1$d</string>
+    <string name="sqrt">\u221A%1$d</string>
+    <string name="cbrt">\u221B%1$d</string>
+    <string name="zero_score">0 of 0</string>
+    <string name="advanced_score">%1$d of %2$d</string>
+    <string name="triple_sum">%1$d + %2$d + %3$d</string>
+    <string name="triple_sum_multiply">(%1$d + %2$d) x %3$d</string>
+    <string name="triple_sub_multiply">(%1$ d - %2$d) x %3$d</string>
+    <string name="triple_sum_div">(%1$d + %2$d) / %3$d</string>
+    <string name="triple_sub_div">(%1$d - %2$d) / %3$d</string>
+    <string name="triple_sub">%1$d - %2$d - %3$d</string>
+    <string name="go">GO!</string>
+
+    <!--quick math-->
+    <string name="sum">%1$d + %2$d = %3$d</string>
+    <string name="sub">%1$d - %2$d = %3$d</string>
+    <string name="mult">%1$d x %2$d = %3$d</string>
+    <string name="div">%1$d / %2$d = %3$d</string>
+
+    <!--quick math score pop up text-->
+    <string name="hey_there_genius">"Hi jenius!"</string>
+    <string name="are_you_even">Anda bisa lebih baik!</string>
+    <string name="need_more_practice">Butuh lebih banyak latihan!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Halo fragmen kosong</string>
+
+    <string name="testAd">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="appinfobutton">appinfoButton</string>
+    <string name="challenge_your_math_skills">Tantang keterampilan matematika Anda</string>
+    <string name="mathtank">GamMath</string>
+    <string name="settingsbutton">settingsButton</string>
+    <string name="what_type_of_shark_are_you_today">Silahkan Pilih Jenis Permainan!!</string>
+    <string name="advanced_shark">Tingkat Lanjut</string>
+    <string name="time_trials_shark">Percobaan Waktu</string>
+    <string name="high_score">Skor Tertinggi</string>
+
+    <!--ads-->
+    <string name="quickMathad">ca-app-pub-3697147059223741/1539252155</string>
+    <string name="timeTrialsAd">ca-app-pub-3697147059223741/5392405677</string>
+    <string name="mainMenuad">ca-app-pub-3697147059223741/5739179592</string>
+    <string name="advancedAd">ca-app-pub-3697147059223741/5707390002</string>
+    <string name="scoresAd">ca-app-pub-3697147059223741/2090227205</string>
+    <string name="scoredHowAd">ca-app-pub-3697147059223741/2435225026</string>
+
+    <!--Error-->
+    <string name="something">Maaf ada yang salah. Tidak dapat mengkalibrasi tingkat keahlian.</string>
+
+
+    <!--What does kids mode do-->
+    <string name="kidspref">Mode anak-anak mengurangi kerumitan pertanyaan matematika Cepat. Mode lain akan segera hadir.</string>
+    <string name="title_activity_scores">Skor</string>
+
+    <!--Settings texts-->
+    <string name="flashing_text">Berguna untuk kesadaran yang baik. Harus dinonaktifkan jika Anda memiliki riwayat epilepsi.</string>
+
+    <!--high score page-->
+    <string name="highscore">HIGH SCORES</string>
+    <string name="quickMathHighScore">Statistik Matematika Cepat</string>
+    <string name="timeTrialsHighScore">Statistik Percobaan Waktu</string>
+    <string name="advancedHighScore">Statistik Tingkat Lanjut</string>
+    <string name="qScore">Paling tinggi: %1$d dari %2$d</string>
+    <string name="aScore">Paling tinggi: %1$d dari %2$d</string>
+    <string name="timesPlayed">Jumlah Permainan: %1$d</string>
+    <string name="tScore">Paling tinggi: %1$d</string>
+    <string name="timeTaken">Waktu yang dibutuhkan: %1$d detik</string>
+    <string name="aTimeTaken">Waktu yang dibutuhkan: %1$d detik</string>
+    <string name="learnhowwe"><u>Pelajari bagaimana kami menilai Anda</u></string>
+    <string name="scorebaru">Skor Tinggi Terbaru!</string>
+    
+    <!--scoredhow strings-->
+    <string name="quickmath">Matematika Cepat</string>
+    <string name="timetrials">Percobaan waktu</string>
+    <string name="advanced">Tingkat lanjut</string>
+    <string name="quickmathrules">Anda dinilai berdasarkan perbedaan antara kuantitas, jawaban benar dan salah. Anda tidak mendapatkan skor ketika: semua jenis pertanyaan dinonaktifkan, timer dinonaktifkan, atau mode anak diaktifkan.</string>
+    <string name="timetrialsrules">Penilaian timetrials didasarkan pada berapa banyak yang Anda benar dan dalam waktu berapa. Elo dihitung dengan membagi berapa banyak Anda mencetak dengan berapa banyak waktu yang Anda ambil (dalam detik). Aturan yang sama berlaku di sini.
+    Semua jenis pertanyaan harus tetap diaktifkan, timer diaktifkan, dan mode anak dinonaktifkan.</string>
+    <string name="advancederules">Lanjutan adalah campuran dari matematika Cepat dan Timetrials. Anda dinilai berdasarkan perbedaan antara total jawaban, total benar dan berapa banyak waktu yang Anda ambil untuk sampai ke sana. Skor tidak akan dihitung sebagai skor tinggi baru jika salah satu validasi tidak benar.</string>
+</resources>
+
+
